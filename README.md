@@ -1,5 +1,5 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #2 выполнил(а):
+Отчет по лабораторной работе #3 выполнил(а):
 - Деньщик Дарья Дмитриевна
 - РИ-210950
 Отметка о выполнении заданий (заполняется студентом):
@@ -35,24 +35,28 @@
 - ✨Magic ✨
 
 ## Цель работы
-Познакомиться с программными средствами для организции передачи данных между инструментами google, Python и Unity
+познакомиться с программными средствами для создания системы машинного обучения и ее интеграции в Unity.
 
 ## Задание 1
-### Реализовать совместную работу и передачу данных в связке Python - Google-Sheets – Unity. При выполнении задания используйте видео-материлы и исходные данные, предоставленные преподавателя курса.
+### Реализовать систему машинного обучения в связке Python - Google-Sheets – Unity.
 Ход работы:
-- В облачном сервисе google console подключить API для работы с google sheets и google drive.
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194570191-fd6ba23e-7e3e-42bd-934b-1b5f5d40ac2a.png">
+- Создайть новый пустой 3D проект на Unity.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197689181-cf925718-61af-40b5-8a3f-1bba67100431.png">
 
-- Реализовать запись данных из скрипта на python в google-таблицу. Данные описывают изменение темпа инфляции на протяжении 11 отсчётных периодов, с учётом стоимости игрового объекта в каждый период.
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194570312-4a5d37dc-8716-451b-ae6c-c58677aaabde.png">
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194570367-28daff36-e229-45f7-a1c3-9f2316536866.png">
+- Скачайть папку с ML агентом. В созданный проект добавьть ML Agent, выбрав Window - Package Manager - Add Package from disk. Последовательно добавьть .json – файлы:
+o	ml-agents-release_19 / com,unity.ml-agents / package.json
+o	ml-agents-release_19 / com,unity.ml-agents.extensions / package.json
+![image](https://user-images.githubusercontent.com/104368430/197690845-467bf411-5f2f-4eee-8ea1-eb944a5b8bbb.png)
 
-- Создать новый проект на Unity, который будет получать данные из google-таблицы, в которую были записаны данные в предыдущем пункте.
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598058-d45f1605-3d90-41d4-b097-ae6144980117.png">
+- Далее запускаем Anaconda Prompt для возможности запуска команд через консоль.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197691208-f0e13ff6-2340-4323-ad7f-0dccee2252f6.png">
 
-- Написать функционал на Unity, в котором будет воспризводиться аудио-файл в зависимости от значения данных из таблицы.
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598132-45faecf4-bcd0-4e1b-8056-2e64cc87cd6a.png">
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/194598182-ad50efa8-d9bd-439f-bf9f-cddaa52390ac.png">
+- Пишем серию команд для создания и активации нового ML-агента, а также для скачивания необходимых библиотек:
+o	mlagents 0.28.0;
+o	torch 1.7.1;
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/104368430/197692035-0ccad4dc-a8c3-446a-a01d-0aa3342ed380.png">
+<img width="438" alt="image" src="https://user-images.githubusercontent.com/104368430/197692066-c4f8500b-a99a-430e-b36e-50e9d6518712.png">
+
 
 ## Задание 2
 ### Реализовать запись в Google-таблицу набора данных, полученных с помощью линейной регрессии из лабораторной работы № 1. 
