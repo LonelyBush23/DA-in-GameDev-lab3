@@ -56,6 +56,17 @@ o	mlagents 0.28.0;
 o	torch 1.7.1;
 <img width="650" alt="image" src="https://user-images.githubusercontent.com/104368430/197692035-0ccad4dc-a8c3-446a-a01d-0aa3342ed380.png">
 <img width="438" alt="image" src="https://user-images.githubusercontent.com/104368430/197692066-c4f8500b-a99a-430e-b36e-50e9d6518712.png">
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/104368430/197692641-7589be21-dfae-42fb-b080-9b7244cce65b.png">
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/104368430/197700344-16a3f763-3eb1-4252-b5da-23abfda61402.png">
+<img width="663" alt="image" src="https://user-images.githubusercontent.com/104368430/197700707-afc9f1b1-5131-466d-9b94-0ec93d4647c8.png">
+
+- Создайть на сцене плоскость, куб и сферу так. Создайть простой C# скрипт-файл и подключите его к сфере:
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197702658-0e7b0a67-2992-4980-97e0-713dedcbc2b1.png">
+
+- В скрипт-файл RollerAgent.cs добавьте код, опубликованный в материалах лабораторных работ – по ссылке.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197703217-410343f5-1d69-4d2e-b455-4e8a72b730a8.png">
+
+- Объекту «сфера» добавить компоненты Rigidbody, Decision Requester, Behavior Parameters и настройть их.
 
 
 ## Задание 2
