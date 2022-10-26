@@ -67,6 +67,11 @@ o	torch 1.7.1;
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197703217-410343f5-1d69-4d2e-b455-4e8a72b730a8.png">
 
 - Объекту «сфера» добавить компоненты Rigidbody, Decision Requester, Behavior Parameters и настройть их.
+<img width="217" alt="image" src="https://user-images.githubusercontent.com/104368430/198010979-850a2702-3854-490e-b382-fd6863b3ff61.png">
+
+- В корень проекта добавьте файл конфигурации нейронной сети. Запустить работу ml-агента
+![image](https://user-images.githubusercontent.com/104368430/198011345-30b7f395-28ab-4267-a176-15f4b249bf3b.png)
+
 
 
 ## Задание 2
