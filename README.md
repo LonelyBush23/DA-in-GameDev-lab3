@@ -66,11 +66,14 @@ o	torch 1.7.1;
 - В скрипт-файл RollerAgent.cs добавьте код, опубликованный в материалах лабораторных работ – по ссылке.
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104368430/197703217-410343f5-1d69-4d2e-b455-4e8a72b730a8.png">
 
+
 - Объекту «сфера» добавить компоненты Rigidbody, Decision Requester, Behavior Parameters и настройть их.
 <img width="217" alt="image" src="https://user-images.githubusercontent.com/104368430/198010979-850a2702-3854-490e-b382-fd6863b3ff61.png">
 
 - В корень проекта добавьте файл конфигурации нейронной сети. Запустить работу ml-агента
-![image](https://user-images.githubusercontent.com/104368430/198011345-30b7f395-28ab-4267-a176-15f4b249bf3b.png)
+<img width="610" alt="image" src="https://user-images.githubusercontent.com/104368430/198011654-eeffe77f-92de-48e4-9b37-fe83f011ace0.png">
+
+- 
 
 
 
