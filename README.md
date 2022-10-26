@@ -130,6 +130,7 @@ public class RollerAgent : Agent
 
 - В корень проекта добавьте файл конфигурации нейронной сети. Запустить работу ml-агента
 <img width="610" alt="image" src="https://user-images.githubusercontent.com/104368430/198011654-eeffe77f-92de-48e4-9b37-fe83f011ace0.png">
+
 ```
 behaviors:
   RollerBall:
